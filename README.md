@@ -59,3 +59,29 @@ When you run the script, it will:
 Docling stores models in the cache directory: ~/.cache/docling/models/
 
 This cache can grow large over time as it downloads and stores various AI models for document processing.
+
+## Citation
+
+This project uses the [Docling](https://github.com/docling-project/docling) framework for document processing.  
+If you use this project or build upon it, please cite the original Docling work:
+
+**Docling Technical Report**  
+Deep Search Team. *Docling Technical Report*. arXiv:2408.09869, August 2024. [https://arxiv.org/abs/2408.09869](https://arxiv.org/abs/2408.09869)
+
+BibTeX:
+```bibtex
+@techreport{Docling,
+  author = {Deep Search Team},
+  month = {8},
+  title = {Docling Technical Report},
+  url = {https://arxiv.org/abs/2408.09869},
+  eprint = {2408.09869},
+  doi = {10.48550/arXiv.2408.09869},
+  version = {1.0.0},
+  year = {2024}
+}
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
