@@ -1,4 +1,4 @@
-# Docling PDF Processing Project
+# Docling Document Processing
 
 This project uses Docling to extract and process content from PDF documents, specifically designed to handle research papers with accurate table extraction.
 
@@ -21,6 +21,7 @@ This project uses Docling to extract and process content from PDF documents, spe
 pip install docling
 ```
 
+2. Run the script:
 ```bash
 cd "c:\Users\User\OneDrive\Desktop\VScode\Docling Test"
 ```
@@ -30,7 +31,7 @@ python main.py
 ```
 
 ## Manual Cache Clearing 
-# Remove all cached models
+### Remove all cached models
 
 ```bash
 rmdir /s "%USERPROFILE%\.cache\docling\models"
